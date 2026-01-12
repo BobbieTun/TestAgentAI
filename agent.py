@@ -1,3 +1,10 @@
+```powershell
+git init
+git add .
+git commit -m "Initial commit: LangGraph CLI AI Agent"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+git push -u origin main
 # agent.py
 from typing import TypedDict, List, Dict
 from langgraph.graph import StateGraph, END
@@ -109,3 +116,4 @@ while True:
     for msg in result["messages"]:
         print("AI:", msg.content)
     print("-" * 40)
+
