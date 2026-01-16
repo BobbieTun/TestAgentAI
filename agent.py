@@ -59,7 +59,7 @@ class AgentState(TypedDict):
 
 # -------------------- LLM --------------------
 import os
-api_key = "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"
+api_key = "Enter_Your_API_HERE"
 
 
 llm = ChatOpenAI(
@@ -116,4 +116,5 @@ while True:
     for msg in result["messages"]:
         print("AI:", msg.content)
     print("-" * 40)
+
 
